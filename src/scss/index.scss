@@ -1,0 +1,16 @@
+@import './Base/base';
+
+// Layouts
+@import './Layouts/topInfo.scss';
+@import './Layouts/navbar';
+@import './Layouts/search';
+@import './Layouts/footer';
+@import './Layouts/newsletter';
+@import './Layouts/accordion';
+@import './Layouts/inputComp';
+@import './Layouts/buttonComp';
+@import './Layouts/toggleBtn';
+
+// pages
+@import './pages/Auth/login';
+@import './pages/Auth/signUp';

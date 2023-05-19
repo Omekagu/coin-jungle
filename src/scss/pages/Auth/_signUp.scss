@@ -1,0 +1,64 @@
+.signUp {
+  text-transform: capitalize;
+  padding: 5px 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  a {
+    color: #55a965;
+  }
+
+  &__text {
+    margin: 15px 0 15px 0;
+  }
+
+  &__form {
+  }
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__remember {
+    display: flex;
+  }
+  &__policy {
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    // justify-content: center;
+    .linebreak {
+      border-top: 2px solid #ddd !important;
+      width: 100%;
+    }
+    &--terms {
+      padding: 10px 0;
+      text-align: center;
+    }
+    &--noAcct {
+      padding: 10px 0;
+    }
+    &--instructions {
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+.text-with-line::before,
+.text-with-line::after {
+  //   content: '';
+  //   display: block;
+  //   height: 1px;
+  //   background-color: black;
+  //   margin: 10px 0;
+}
+
+.text-with-line {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}

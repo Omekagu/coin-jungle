@@ -1,0 +1,19 @@
+.inputComp {
+  margin: 15px 0 15px 0;
+
+  &__input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+
+    &::placeholder {
+      padding-left: 5px;
+      text-transform: capitalize;
+    }
+  }
+  &__label {
+    text-transform: capitalize;
+    font-weight: 200;
+  }
+}

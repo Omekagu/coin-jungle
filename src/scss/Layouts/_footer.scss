@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 5px 15px;
+  line-height: 17px;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__sectionOne {
+    text-transform: capitalize;
+  }
+  &__copyright {
+    font-size: 12px;
+    margin-bottom: 5px;
+    &--text {
+      font-weight: bold;
+    }
+  }
+  &__appDownload {
+    display: flex;
+    // flex-direction: column;
+    &--andriod {
+      width: 50%;
+      height: 50%;
+      padding-bottom: 5px;
+    }
+  }
+  &__disclaimer {
+    font-weight: bold;
+    &--paragraph {
+      font-weight: 200;
+    }
+  }
+}

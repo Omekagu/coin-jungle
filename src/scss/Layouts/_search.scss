@@ -1,0 +1,24 @@
+.search {
+  width: 100%;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+
+  &__icon,
+  svg {
+    position: absolute;
+    color: #18171792;
+    margin-left: 20px;
+  }
+  &__input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+
+    &::placeholder {
+      padding-left: 20px;
+    }
+  }
+}

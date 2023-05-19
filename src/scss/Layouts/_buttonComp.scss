@@ -1,0 +1,39 @@
+.buttonComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  color: #0d110e;
+  text-transform: capitalize;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #122516;
+    color: #fff;
+  }
+}
+
+.submit {
+  background: #55a965;
+}
+.goggle {
+  // background: rgb(191, 195, 34);
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(191, 195, 34, 0.958420868347339) 0%,
+  //   rgba(21, 132, 198, 0.9640231092436975) 100%
+  // );
+}
+.apple {
+  // background: rgb(16, 43, 46);
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(16, 43, 46, 0.989233193277311) 0%,
+  //   rgba(9, 121, 69, 0.7203256302521008) 35%,
+  //   rgba(0, 212, 255, 1) 100%
+  // );
+}
