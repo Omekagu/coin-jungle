@@ -1,8 +1,8 @@
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-import InputComp from '../Components/InputComp';
-import ButtonComp from '../Components/ButtonComp';
 import { Google, Apple } from '@mui/icons-material';
+import InputComp from '../../Components/InputComp';
+import ButtonComp from '../../Components/ButtonComp';
 
 const SignUp = () => {
   return (

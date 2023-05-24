@@ -7,7 +7,7 @@ const AccordionContent = () => {
       <Accordion
         title={'resources'}
         children={
-          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia autem nihil? Consectetur voluptatum cumque deleniti itaque quis. Est, perspiciatis officia? Commodi ab perferendis repellat dignissimos. Nostrum quia quo eligendi.'
+          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia autem nihil? Consectetur voluptatum cumque deleniti itaque quis. Est, perspiciatis officia? Commodi ab perferendis repellat dignissimos. Nostrum quia quo eligendi.'
         }
       />
       <Accordion

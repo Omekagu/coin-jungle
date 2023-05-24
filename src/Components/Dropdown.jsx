@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Dropdown = () => {
   return (
@@ -19,10 +20,10 @@ const Dropdown = () => {
             <a href="4">Help</a>{' '}
           </li>
           <li>
-            <a href="3">login</a>{' '}
+            <Link to="login">login</Link>{' '}
           </li>
           <li>
-            <a href="3">signin</a>{' '}
+            <Link to="signup">signin</Link>{' '}
           </li>
           {/* <li>
             <ButtonComp title={'connect wallet'} />
